@@ -11,6 +11,16 @@
     />
     <title>Orchid House</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .subscribe-section {
+        background-image: url("./Rectangle\ 9.png");
+        height: 100%;
+        width: 82%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    </style>
   </head>
   <body>
     <section class="header">
@@ -116,7 +126,7 @@
       <section class="offer-section">
         <div class="my-offer">
         <div class="offer">
-          <h2 class="section-title">Hot Deal ! Sale Up To 25% Off</h2>
+          <h2 class="section-title">Hot Deal ! Sale Up To <span class="text-primary"> 25% Off</span></h2>
           <p class="section-description">A plant makes a wonderful gift, and many will last for years and may produce more plants if given proper care. Read our helpful hints for caring for some of the more popular plants.</p>
           <div class="signup-button">
           <button type="submit" class="primary-button">Sign Up</button>
@@ -165,11 +175,23 @@
         </div>
       </section>
 
-      <section class="subscribe">
+      <section class="subscribe-section">
+          <h2 class="section-title">Get The Latest Deals</h2>
+          <p class="section-description">$30 coupon for first shopping</p>
         
+          <div class="subscribe-container">
+          <div class="mail">
+            <input type="email" name="email" id="" placeholder="Enter your email here.... ">
+            <button type="submit" class="primary-button">Subscribe</button>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <h2 class="section-title"> <span class="text-primary">Orchid</span><span style="color: white;">House</span></h2>
+      <p style="color: white; text-align: center;">Love. Admiration. Dedication. Creativity. <br> See what messages your flowers convey.</p>
+      <p class="slogan">@2020-2023, OrchidHouse.com. All rights reserved. </p>
+    </footer>
   </body>
 </html>

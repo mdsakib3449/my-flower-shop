@@ -7,6 +7,9 @@
   background-color: #d04d6a1a;
   display: flex;
 }
+.text-primary {
+  color: #e55473;
+}
 
 /* header section */
 
@@ -101,7 +104,8 @@
 }
 .my-offer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .signup-button {
   text-align: center;
@@ -109,6 +113,7 @@
 }
 .offer-img {
   margin-top: 30px;
+  margin-right: 200px;
 }
 .offer-section .section-description {
   text-align: center;
@@ -155,3 +160,38 @@
 }
 
 /* subscribe section */
+.subscribe-section {
+  margin: 100px 140px 0 140px;
+  padding-bottom: 80px;
+  align-items: center;
+  margin-right: 50px;
+}
+.subscribe-container {
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-container input[type="email"] {
+  width: 30%;
+  height: 30px;
+  border: 0;
+  padding: 10px 40px;
+  margin-left: 330px;
+  border-radius: 8px;
+}
+
+/* footer section */
+footer {
+  margin-top: 100px;
+  background-color: black;
+  padding: 20px 0 20px 0;
+}
+footer > .section-title {
+  padding-top: 30px;
+}
+.slogan {
+  text-align: center;
+  color: #e55473;
+  margin: 30px 0 50px 0;
+}
